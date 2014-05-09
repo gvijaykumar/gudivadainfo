@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background-color:#333;
+}
+#pb{
+margin-top:150px;
+margin-left:360px;
+width:30%;
+}
+#status{
+color:#FF0000;
+}
+img{
+padding-top:200px;
+padding-left:210px;
+}
+#finalmessage{
+color:#FFFFFF;
+margin-left:440px;
+font-size:30px;
+}
+

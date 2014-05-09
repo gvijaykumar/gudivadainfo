@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="progress.css" rel="stylesheet" type="text/css" /> 
+</head>
+<body>
+<img src="cooltext1124242857 copy.jpg" align="middle" /><br/>
+<progress id="pb" value=0 max=100 width="200px" height="25px"></progress>
+<span id="status"></span><br />
+<a href="../gdv/home.html" id="finalmessage" class="babi"></a>
+<script type="text/javascript" language="javascript">
+function progressBarSim(al){
+var bar = document.getElementById('pb');
+var status = document.getElementById('status');
+status.innerHTML=al+"%";
+bar.value=al;
+al++;
+var sim=setTimeout("progressBarSim("+al+")",50);
+if(al==100){
+status.innerHTML="100%";
+bar.value=100;
+clearTimeout(sim);
+document.getElementById('finalmessage').innerHTML = "click here";
+}
+}
+var amountLoaded=0;
+progressBarSim(amountLoaded);
+</script>
+</body>
+</html>

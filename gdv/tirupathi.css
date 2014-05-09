@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+#page{
+	height:100%;
+	width:100%;
+	margin:auto;
+	background-color:#d3d5d5;
+	}
+#header{
+	height:170px;
+	width:1010px;
+	background-color:#4b86ca;
+}	
+#menu_bar{
+margin-bottom:30px;
+
+}
+.clockStyle {
+	color:#0FF;
+	font-family:"Arial Black", Gadget, sans-serif;
+        font-size:14px;
+		padding-left:100px;
+		font-weight:bold;
+	letter-spacing: 2px;
+	display:inline;
+}
+marquee.sss{
+color:#FFFFFF;
+}
+#content{
+	height:800px;
+	width:970px;
+	border:1px solid;
+	border-color:#000000;
+	margin:auto;
+	border-radius:3px;
+	margin-top:20px;	
+    background-color:#d3d5d5;
+	}
+table.poi{
+height:699px;
+width:690px;
+background-color:#FFFFFF;
+}
+
+	
+#cssmenu {
+	background: #333;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 18em;
+	height:50em;
+}
+#cssmenu li {
+	font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+       list-style: none;
+}
+#cssmenu a {
+	background: #333;
+	border-bottom: 1px solid #393939;
+	color: #ccc;
+	display: block;
+	margin: 0;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-weight:200;
+	font-size:16px;
+
+	
+
+}
+#cssmenu a:hover {
+	background: #2580a2 url('http://4.bp.blogspot.com/-hS3Y5hqlkZk/UJseosrIpDI/AAAAAAAACUI/pwd0aXH8C5Y/s1600/hover.gif') left center no-repeat;
+	color: #fff;
+	padding-bottom: 8px;
+}
+ul.submenu {
+       display: none;
+	   }
+li:hover ul.submenu {
+         display: block;
+            }
+#contact
+{
+padding-left:60px;
+}
+#navigation_bar{
+	height:47px;
+	width:inherit;
+	background-color:#25215E;
+	margin-top:6px;
+}

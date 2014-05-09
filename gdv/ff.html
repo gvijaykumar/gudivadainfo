@@ -1,0 +1,32 @@
+<html>
+<head>
+
+<script type="text/javascript">
+<!--
+spe=500;
+na=document.all.tags("blink");
+swi=1;
+bringBackBlinky();
+function bringBackBlinky() {
+if (swi == 1) {
+sho="visible";
+swi=0;
+}
+else {
+sho="hidden";
+swi=1;
+}
+for(i=0;i<na.length;i++) {
+na[i].style.visibility=sho;
+}
+setTimeout("bringBackBlinky()", spe);
+}
+-->
+</script>
+
+</head>
+
+<body>
+<blink><img src="file:///D|/images (3).jpg"</blink>
+</body>
+</html>
